@@ -23,8 +23,8 @@
 
 .left-listing {
   display: flex;
-  gap: 15px;
-  min-width: 151px;
+  gap: 20px;
+  min-width: 168px;
 }
 /* .left-first{
   padding-right: 5rem;
@@ -53,19 +53,86 @@ button {
   border: 2px solid var(--background-color);
 }
 
-button:hover{
+.num.active{
   background-color: var(--button-color);
   color: var(--button-text-color);
-}
+} 
 
 
 .details p{
   font-size: 0.8rem;
-  color: gray;
+  color: var(--gray-text-color)
 }
 
 .details h1{
-  font-size: 16px;
+  font-size: 13px;
   color: var(--background-color);
-  margin-top: 0.3rem;
+  margin-top: 0.1rem;
+}
+
+
+
+
+/* right container */
+.right-container{
+  margin-top: 5rem;
+  margin-left: 2rem;
+  /* border: 1px solid red; */
+  min-width: 200px;
+  margin-bottom: 2rem;
+  
+}
+.right-container h1{
+  color: var(--right-text-color);
+}
+
+.right-container p{
+  margin-top: 0.6rem;
+  color: var(--gray-text-color);
+}
+
+.input-containers{
+  display: block;
+}
+
+.input-container{
+  margin-top: 2rem;
+}
+
+.label{
+  margin-top:0.4rem ;
+}
+label[for="email"],label[for="text"],label[for="tel"]{
+  color: var(--secondbg-color);
+}
+
+input{
+  width: 30rem;
+  height: 2.7rem;
+  border-radius: 10px;
+  border: 1px solid silver;
+  outline: none;
+  color: var(--right-text-color);
+  padding-top: 2px;
+  padding-left: 1rem;
+  font-weight: 700;
+}
+
+input:focus{
+  border: 1px solid var(--secondbg-color);
+}
+
+.btn{
+  /* position: absolute; */
+  background: var(--right-text-color);
+  padding: 18px 8px;
+  width: 25%;
+  height: 20%;
+  border-radius: 2px;
+  margin-top: 10rem;
+  margin-left: 22.4rem;
+  border-radius: 10px;
+  /* bottom: 2px; */
+
+  
 }
