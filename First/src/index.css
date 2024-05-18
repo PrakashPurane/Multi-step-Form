@@ -1,0 +1,22 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --background-color: #ffffff;
+  --foreground-color: rgb(107, 146, 160);
+  --button-color: skyblue;
+  --secondbg-color: rgb(45, 45, 239);
+  --button-text-color: #0a0a0a;
+}
+
+
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--foreground-color);
+}
