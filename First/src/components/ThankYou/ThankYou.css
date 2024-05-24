@@ -1,0 +1,30 @@
+.thankyou{
+    height: 35vh;
+    width: 550px;
+    position: relative;
+    bottom: -12rem;
+
+}
+
+.thankyouicon{
+    position: absolute;
+    left: 13rem;
+
+}
+
+.thankyou h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 7rem;
+    margin-left: -3rem;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.thankyou p{
+    margin-top: 1rem;
+    font-size: 1.4rem;
+    text-align: center;
+    color: var(--gray-text-color);
+}

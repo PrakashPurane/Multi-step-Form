@@ -4,6 +4,16 @@
   box-sizing: border-box;
 }
 
+
+body{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--foreground-color);
+}
+
+
 :root{
   --background-color: #ffffff;
   --foreground-color: rgb(107, 146, 160);
@@ -13,14 +23,7 @@
   --right-text-color: rgb(26, 26, 81);
   --gray-text-color: rgb(131, 130, 130);
   --red-error: red;
+  --finish-color: rgb(237, 250, 251);
+  --hr-color: rgb(224, 224, 224);
   
-}
-
-
-body{
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: var(--foreground-color);
 }
