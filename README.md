@@ -31,13 +31,14 @@ To get started with the project, follow these steps:
 1. Clone the repository:
   
    git clone https://github.com/your-username/Multi-step-Form.git
+   
    cd Multi-step-Form
 
-2. Install dependencies:
+3. Install dependencies:
     
     npm install
 
-3. Run the development server:
+4. Run the development server:
   
    npm run dev
 
