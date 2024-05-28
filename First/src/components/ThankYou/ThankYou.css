@@ -1,8 +1,8 @@
 .thankyou{
     height: 35vh;
-    width: 550px;
+    width: 100%;
     position: relative;
-    bottom: -12rem;
+    bottom: -8rem;
 
 }
 
@@ -24,7 +24,34 @@
 
 .thankyou p{
     margin-top: 1rem;
-    font-size: 1.4rem;
+    font-size:1.3rem;
     text-align: center;
+    padding-right: 2rem;
     color: var(--gray-text-color);
+}
+
+
+/* MEDIA QUERY */
+@media screen and (max-width:768px){
+    .thankyouicon{
+        margin-left: -2rem;
+    }
+}
+@media screen and (max-width:425px){    
+    .thankyou{
+        background-color: var(--background-color);
+        top: -3rem;
+        width: 93%;
+        height: 50vh;
+        padding-top:4rem ;
+        padding-left: 1rem;
+        margin-left: 1rem;
+        border-radius: 4%;
+    }
+    .thankyouicon{
+        left: 10rem;
+    }
+    .thankyou h1{
+        margin-left: 1rem;
+    }
 }
